@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "calculateGRAY2013Raw"
+    "name": "calculategray2013Raw"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
