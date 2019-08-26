@@ -6,7 +6,7 @@
     "image": "bhklab/pharmacogx:v3",
     "cmd": [
       "Rscript", 
-      "/pfs/downloadGRAY2013SensRaw/downloadData.R"]
+      "/pfs/downloadGRAY2013SensRaw/downloadSensData.R"]
     },
   
   "resource_requests": {
