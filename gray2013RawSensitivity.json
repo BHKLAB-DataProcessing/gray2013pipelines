@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "gdscRawSensitivity"
+    "name": "/gray2013RawSensitivity"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
@@ -27,7 +27,7 @@
           "repo": "downAnnotations",
           "glob": "/"
         }
-      },
+      }
     ]
   }
 }
