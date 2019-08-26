@@ -25,7 +25,7 @@
         }
       },
       {
-        "atom": {
+        "pfs": {
           "repo": "GRAYRawSensitivity",
           "name": "input",
           "glob": "/slices/*"
