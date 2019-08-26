@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "gray2013RawSensitivity"
+    "name": "GRAYRawSensitivity"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
