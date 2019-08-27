@@ -21,7 +21,6 @@
       {
         "pfs": {
           "repo": "calculategray2013Raw",
-          "name": "input",
           "glob": "/"
         }
       },
@@ -29,7 +28,6 @@
       {
         "pfs": {
           "repo": "downAnnotations",
-          "name": "input",
           "glob": "/"
         }
       },
@@ -37,7 +35,6 @@
       {
         "pfs": {
           "repo": "GRAYRawSensitivity",
-          "name": "input",
           "glob": "/"
         }
       },
@@ -45,7 +42,6 @@
       {
         "pfs": {
           "repo": "gray2013ProfilesAssemble",
-          "name": "input",
           "glob": "/"
         }
       },
@@ -53,7 +49,6 @@
       {
         "pfs": {
           "repo": "downloadrna",
-          "name": "input",
           "glob": "/"
         }
       } 
