@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "GRAY2013"
+    "name": "getGRAY_2013"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
