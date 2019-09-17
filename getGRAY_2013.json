@@ -9,6 +9,10 @@
       "/pfs/getGRAY2013/GRAY.R"]
     },
   
+  "resource_requests": {
+    "memory": "1G"
+  },
+  
   "input": {
     "cross": [
       {
