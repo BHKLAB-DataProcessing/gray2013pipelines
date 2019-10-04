@@ -1,0 +1,33 @@
+{
+  "pipeline": {
+    "name": "GRAYRawSensitivity"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v3",
+    "cmd": [
+      "Rscript", 
+      "/pfs/downloadGRAY2013SensRaw/downloadSensData.R"]
+    },
+  
+  "resource_requests": {
+    "memory": "100M"
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/downloadGRAY2013SensRaw.git",
+          "name": "",
+          "branch": "master"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "downAnnotations",
+          "glob": "/"
+        }
+      }
+    ]
+  }
+}
