@@ -9,7 +9,7 @@
       "/pfs/gray2013RecalculateFromRaw/recalculateSlice.R"]
     },
   "parallelism_spec":{
-    "coefficient": 1
+    "constant": 4
   },
   "resource_requests": {
     "memory": "1G",
