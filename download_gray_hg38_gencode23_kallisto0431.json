@@ -6,7 +6,7 @@
     "image": "bhklab/pharmacogx:v3",
     "cmd": [
       "Rscript", 
-      "/pfs/GRAY_hg38_Gencode23_Kallisto-0-43-1/downloadRNA.R"]
+      "/pfs/GRAY_hg38_Gencode23_Kallisto-0-43-1/downloadrnaseq.R"]
     },
   
   "resource_requests": {
