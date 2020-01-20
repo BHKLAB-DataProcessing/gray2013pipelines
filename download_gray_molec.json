@@ -1,0 +1,26 @@
+{
+  "pipeline": {
+    "name": "download_gray_molec"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v3",
+    "cmd": [
+      "Rscript", 
+      "/pfs/download_GRAY_molecular/download_molecular.R"]
+    },
+  
+  "resource_requests": {
+    "memory": "100M"
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/download_GRAY_molecular.git",
+          "name": "",
+          "branch": "master"
+        }
+      }
+    ]
+  }
+}
