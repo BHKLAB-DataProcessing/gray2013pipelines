@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "gray_zenodo_post"
+    "name": "gray_zenodo_postreq"
   },
   "transform": {
     "image": "bhklab/python_zenodo",
@@ -19,12 +19,6 @@
           "url": "https://github.com/BHKLAB-Pachyderm/ZenodoUpload.git",
           "name": "",
           "branch": "master"
-        }
-      },
-      {
-        "pfs": {
-          "repo": "ZenodoUpload",
-          "glob": "/"
         }
       },
       
