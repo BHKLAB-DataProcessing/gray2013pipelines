@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "gray_zenodo_post"
+    "name": "gray_zenodo_postreq"
   },
   "transform": {
     "image": "bhklab/python_zenodo",
