@@ -1,1 +1,58 @@
-{"pipeline":{"name":"getGRAYP_2013"},"transform":{"image":"bhklab/pharmacogx:v3","cmd":["Rscript","/pfs/getGRAY2013/GRAY.R","rna1","5e31ccddb067020eac389265"]},"resource_requests":{"memory":"1G"},"input":{"cross":[{"git":{"url":"https://github.com/BHKLAB-Pachyderm/getGRAY2013.git","name":"","branch":"master"}},{"pfs":{"repo":"calculategray2013Raw","glob":"/"}},{"pfs":{"repo":"downAnnotations","glob":"/"}},{"pfs":{"repo":"GRAYRawSensitivity","glob":"/"}},{"pfs":{"repo":"gray2013ProfilesAssemble","glob":"/"}},{"pfs":{"repo":"download_gray_molec","glob":"/"}}]}}
+{
+  "pipeline": {
+    "name": "getGRAYP_2013"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v3",
+    "cmd": [
+      "Rscript",
+      "/pfs/getGRAY2013/GRAY.R",
+      "rna1",
+      "5e31d0809340c9136dc77eb9"
+    ]
+  },
+  "resource_requests": {
+    "memory": "1G"
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/getGRAY2013.git",
+          "name": "",
+          "branch": "master"
+        }
+      },
+      {
+        "pfs": {
+          "repo": "calculategray2013Raw",
+          "glob": "/"
+        }
+      },
+      {
+        "pfs": {
+          "repo": "downAnnotations",
+          "glob": "/"
+        }
+      },
+      {
+        "pfs": {
+          "repo": "GRAYRawSensitivity",
+          "glob": "/"
+        }
+      },
+      {
+        "pfs": {
+          "repo": "gray2013ProfilesAssemble",
+          "glob": "/"
+        }
+      },
+      {
+        "pfs": {
+          "repo": "download_gray_molec",
+          "glob": "/"
+        }
+      }
+    ]
+  }
+}
