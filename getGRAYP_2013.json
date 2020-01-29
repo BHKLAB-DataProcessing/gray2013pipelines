@@ -8,7 +8,7 @@
       "Rscript",
       "/pfs/getGRAY2013/GRAY.R",
       "rna1",
-      "5e31e63e4479181a3308254e"
+      "5e31e859fc39521a98bb9d9f"
     ]
   },
   "resource_requests": {
@@ -55,5 +55,5 @@
       }
     ]
   },
-  "_id": "5e31e63e4479181a3308254e"
+  "_id": "5e31e859fc39521a98bb9d9f"
 }
