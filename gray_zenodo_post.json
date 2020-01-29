@@ -21,12 +21,6 @@
           "branch": "master"
         }
       },
-      {
-        "pfs": {
-          "repo": "ZenodoUpload",
-          "glob": "/"
-        }
-      },
       
       {
         "pfs": {
