@@ -1,0 +1,39 @@
+{
+  "pipeline": {
+    "name": "gray_zenodo_post"
+  },
+  "transform": {
+    "image": "bhklab/python_zenodo",
+    "cmd": [
+      "python3",
+      "/pfs/ZenodoUpload/upload_POST.py"
+    ]
+  },
+  "resource_requests": {
+    "memory": "1G"
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/ZenodoUpload.git",
+          "name": "",
+          "branch": "master"
+        }
+      },
+      {
+        "pfs": {
+          "repo": "ZenodoUpload",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "getGRAYP_2013",
+          "glob": "/"
+        }
+      }
+    ]
+  }
+}
