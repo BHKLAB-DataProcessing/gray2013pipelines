@@ -8,11 +8,8 @@
       "Rscript",
       "/pfs/getGRAY2013/GRAY.R",
       "rna1",
-      "5e31eda602b0461d650865e6"
+      "5e31ef7dbb5d3c1dc6d3c3cd"
     ]
-  },
-  "resource_requests": {
-    "memory": "1G"
   },
   "input": {
     "cross": [
@@ -54,5 +51,7 @@
         }
       }
     ]
-  }
+  },
+  "update": true,
+  "reprocess": true
 }
