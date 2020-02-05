@@ -8,7 +8,7 @@
       "Rscript",
       "/pfs/getGRAY2013/GRAY.R",
       "rna1",
-      "5e3b306bb70b53182bc4e89f"
+      "5e3b30d4419ca21891cf42d6"
     ]
   },
   "input": {
@@ -53,5 +53,6 @@
     ]
   },
   "update": true,
-  "reprocess": true
+  "reprocess": true,
+  "_id": "5e3b30d4419ca21891cf42d6"
 }
