@@ -1,4 +1,5 @@
 {
+  "_id": "5e3c76be41720011b072c844",
   "pipeline": {
     "name": "getGRAYP_2013"
   },
@@ -8,7 +9,7 @@
       "Rscript",
       "/pfs/getGRAY2013/GRAY.R",
       "rna1",
-      "5e44602ee461f215973061ad"
+      "5e3c76be41720011b072c844"
     ]
   },
   "input": {
@@ -53,6 +54,5 @@
     ]
   },
   "update": true,
-  "reprocess": true,
-  "_id": "5e3c7dbffb8dbe1a349d8e70"
+  "reprocess": true
 }
