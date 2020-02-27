@@ -1,15 +1,13 @@
 {
-  "_id": "5e3c76be41720011b072c844",
   "pipeline": {
     "name": "getGRAYP_2013"
   },
   "transform": {
-    "image": "bhklab/pharmacogx:v3",
+    "image": "bhklab/pharmacogx:v7",
     "cmd": [
       "Rscript",
       "/pfs/getGRAY2013/GRAY.R",
-      "rna1",
-      "5e4d441e6a5099728edac4b2"
+      "Kallisto-0.43.0", "Gencode_v33" ,"asdssha742832sb"
     ]
   },
   "input": {
@@ -47,12 +45,10 @@
       },
       {
         "pfs": {
-          "repo": "download_gray_molec",
+          "repo": "gray_rnaseq_kallisto_0_43_0",
           "glob": "/"
         }
       }
     ]
-  },
-  "update": true,
-  "reprocess": true
+  }
 }
