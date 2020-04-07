@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "grayt3_zenodo_postreq"
+    "name": "grayt4_zenodo_postreq"
   },
   "transform": {
     "image": "bhklab/python_zenodo",
@@ -13,22 +13,30 @@
     "memory": "1G"
   },
   "input": {
+    "join": [
+      {
         "git": {
           "url": "https://github.com/BHKLAB-Pachyderm/ZenodoUpload.git",
           "name": "",
           "branch": "master"
-        },
+        }
+      },
       
+      {
         "pfs": {
           "repo": "getGRAYP_2013",
           "name": "input",
           "glob": "/"
-        },
+        }
+      },
       
+      {
         "pfs": {
           "repo": "getGRAY_2017",
           "name": "input",
           "glob": "/"
+        }
       }
+    ]
   }
 }
