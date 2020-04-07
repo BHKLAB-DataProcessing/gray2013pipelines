@@ -10,7 +10,7 @@
     ]
   },
   "resource_requests": {
-    "memory": "1G"
+    "memory": "0.5G"
   },
   "input": {
     "cross": [
