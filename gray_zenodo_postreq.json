@@ -25,6 +25,15 @@
       {
         "pfs": {
           "repo": "getGRAYP_2013",
+          "name": "input",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "getGRAY_2017",
+          "name": "input",
           "glob": "/"
         }
       }
