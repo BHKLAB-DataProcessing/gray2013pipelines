@@ -3,7 +3,7 @@
     "name": "getGRAYP_2013"
   },
   "transform": {
-    "image": "bhklab/pharmacogx2.0:v1",
+    "image": "bhklab/pharmacogx2.0:v2",
     "cmd": [
       "Rscript",
       "/pfs/getGRAY2013/GRAY.R",
